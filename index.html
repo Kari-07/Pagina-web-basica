@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página web.">
+    <meta name="keywords" content="HTML, ejemplo, tutorial">
+    <meta name="author" content="Autor de la página">
+    <meta property="og:title" content="Título de la página">
+    <meta property="og:image" content="URL_imagen">
+    <title>Mi Página</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulo">Artículo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es la sección de inicio de mi página web.</p>
+            <blockquote>
+                <p>"El HTML es el lenguaje base de la web."</p>
+                <cite>- Un desarrollador web</cite>
+            </blockquote>
+            <figure>
+                <img src="https://cdn.kulturegeek.fr/wp-content/uploads/2016/12/jarvis-iron-man-1.jpg" alt="Ejemplo de imagen">
+                <figcaption>Figura 1: Ejemplo de una imagen en HTML.</figcaption>
+            </figure>
+            <video controls>
+                <source src="https://rr5---sn-q4flrnld.googlevideo.com/videoplayback?expire=1744588417&ei=Ifr7Z9jzCtaRsfIP_4-nqQY&ip=23.26.94.128&id=o-AL6uGZQkI7AibClWTzh71hzexBHErDdgBVeDPn3dK77R&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AccgBcMJW_aiqBaZOgrkM5C9yn3LVs-k0Pc35kx0LbemtnmnWsgENPyjSL91ZmWVNDASJWYFuYC5oG8m&spc=_S3wKv5-Z-yDo7ch2J0x&vprv=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=4470139&ratebypass=yes&dur=59.328&lmt=1744553209902870&c=ANDROID_VR&txp=5430534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Cmime%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgDKorBx5g5VnmoFWyzNPWjFL91XyBqIBMJLcs6on5lggCIQCHNmhDP-Iiuz6YXRHpjXJhw4tJ-0FF4QqcmDFmu4OEVw%3D%3D&title=Earth%20Angel%20&rm=sn-pouxbg5-naje7e,sn-n4vld7l&rrc=79,104,80&fexp=24350590,24350737,24350827,24350961,24351064,24351173,24351230,24351524,24351528,24351542,24351545,24351606,24351637&req_id=b88de60c94c3a3ee&ipbypass=yes&redirect_counter=3&cm2rm=sn-9gvly76&cms_redirect=yes&cmsv=e&met=1744566840,&mh=rk&mip=45.174.240.38&mm=34&mn=sn-q4flrnld&ms=ltu&mt=1744566516&mv=m&mvi=5&pl=24&rms=ltu,au&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=ACuhMU0wRgIhAO-5FkqwHdyocyYsIk9nuhLnVnxCn1T8qmlLtAycLE4YAiEArdCtB96TAAHkbH-oV7Qwl6N0smtZJoeNGiDeScgImWs%3D#drawing%20#art" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="Audio/1.mp3" type="audio/mpeg">
+            </audio>
+            <iframe src="https://sice.instcamp.edu.mx/" title="Ejemplo de iframe" width="600" height="400">
+            </iframe>
+            <ul>
+                <li>Elemento de lista no ordenada 1</li>
+                <li>Elemento de lista no ordenada 2</li>
+                <li>Elemento de lista no ordenada 3</li>
+            </ul>
+            <ol>
+                <li>Elemento de lista ordenada 1</li>
+                <li>Elemento de lista ordenada 2</li>
+                <li>Elemento de lista ordenada 3</li>
+            </ol>
+            <dl>
+                <dt>Término 1</dt>
+                <dd>Definición del término 1.</dd>
+                <dt>Término 2</dt>
+                <dd>Definición del término 2.</dd>
+            </dl>
+            <table>
+                <caption>Ejemplo de tabla</caption>
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </table>
+            <form action="/enviar" method="post">
+                <fieldset>
+                    <legend>Formulario de Ejemplo</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="opciones">Opciones:</label>
+                    <select id="opciones" name="opciones">
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                    </select>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
